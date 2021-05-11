@@ -8,7 +8,7 @@ const Organisation = () => {
     return(
     <Container fluid className="container my-3 mx-2" >
         
-                <Row className='py-5'>
+                <Row fluid className='py-5'>
                   
                   <Col className='px-5' lg={3} xs={12} md={6}>
                   <Image className="logoIpsum" src={require('../images/Mask Group 11.png').default} />
