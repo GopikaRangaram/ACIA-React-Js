@@ -6,24 +6,24 @@ import { Container,  Image, Row, Col} from 'react-bootstrap';
 const Organisation = () => {
 
     return(
-    <Container fluid className="container" >
+    <Container fluid className="container my-3" >
         
-                <Row xs={2} md={2} lg={4} style={{marginLeft:"-52px",  paddingTop:"94px"}}>
+                <Row className='py-5'>
                   
-                  <Col>
+                  <Col lg={3} xs={6} md={6}>
                   <Image className="logoIpsum" src={require('../images/Mask Group 11.png').default} />
                   </Col>
                 
-                  <Col>
+                  <Col lg={3} xs={6} md={6}>
                   <Image className="amara" src={require('../images/Mask Group 12.png').default} />  
                   </Col>
                            
-                  <Col >
+                  <Col lg={3} xs={6}  md={6}>
                   <Image className="aven"  src={require('../images/Mask Group 13.png').default} />
                   </Col>
     
                                     
-                  <Col>
+                  <Col lg={3} xs={6}  md={6}>
                   <Image className="treva"  src={require('../images/Mask Group 14.png').default} />
                   </Col> 
 
