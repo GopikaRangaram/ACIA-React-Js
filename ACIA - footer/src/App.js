@@ -10,16 +10,15 @@ import MotorInsuranceBody from './components/motorInsuranceBody'
 
 function App() {
   return (
-    // <Router>
-    //   <div>
-    //     <Switch>
-    //       <Route path="/home" component = {HomeBody} />
-    //       <Route path="/MotorInsurance" component = { MotorInsuranceBody} />
-    //     </Switch>
-    //   </div>
-    // <Footer /> 
-    // </Router>
-    <AboutPolicy />
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/home" component = {HomeBody} />
+          <Route path="/MotorInsurance" component = { MotorInsuranceBody} />
+        </Switch>
+      </div>
+    <Footer /> 
+    </Router>
   );
 }
 
