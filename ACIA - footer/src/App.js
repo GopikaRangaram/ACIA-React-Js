@@ -2,7 +2,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import AboutPolicy from './components/dynamicForms/AboutPolicy';
 
 import HomeBody from './components/homeBody';
 import Footer from './components/footer';
